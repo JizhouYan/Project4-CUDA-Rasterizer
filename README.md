@@ -16,7 +16,7 @@ CUDA Rasterizer
 
 ![overview](img/1.gif)
 
-  # Pipeline: 
+  * Pipeline: 
 	* Vertex Shading (apply Model, View, Projection transform and assembly vertexOut )
 	* Primitive Assembly (assembly vertices to primitives)
 	* Rasterization (fill in every fragment inside each primitive)
@@ -25,20 +25,20 @@ CUDA Rasterizer
 
 ## Result
 
-  # Rasterization of Line and Point
+  * Rasterization of Line and Point
 
-	|point|wireframe|
-	|----|----|
-	|![](img/cowpoint.PNG)|![](img/cowline.PNG)|
+|point|wireframe|
+|----|----|
+|![](img/cowpoint.PNG)|![](img/cowline.PNG)|
 
-	|point|wireframe|
-	|----|----|
-	|![](img/chunkpoint.PNG)|![](img/chunkline.PNG)|
+|point|wireframe|
+|----|----|
+|![](img/chunkpoint.PNG)|![](img/chunkline.PNG)|
 
-  # Perspective Correction
-  
-	|without perspective correction|with perspective correction|
-	|----|----|
-	|![](img/withoutPerspectiveCorrectness.PNG)|![](img/withPerspectiveCorrectness.PNG)|
+  * Perspective Correction
+
+|without perspective correction|with perspective correction|
+|----|----|
+|![](img/withoutPerspectiveCorrectness.PNG)|![](img/withPerspectiveCorrectness.PNG)|
 
 
