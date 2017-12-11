@@ -26,6 +26,7 @@ CUDA Rasterizer
 ## Result
 
   # Rasterization of Line and Point
+
 	|point|wireframe|
 	|----|----|
 	|![](img/cowpoint.PNG)|![](img/cowline.PNG)|
@@ -35,6 +36,7 @@ CUDA Rasterizer
 	|![](img/chunkpoint.PNG)|![](img/chunkline.PNG)|
 
   # Perspective Correction
+  
 	|without perspective correction|with perspective correction|
 	|----|----|
 	|![](img/withoutPerspectiveCorrectness.PNG)|![](img/withPerspectiveCorrectness.PNG)|
