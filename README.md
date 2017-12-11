@@ -29,11 +29,11 @@ CUDA Rasterizer
 
 |point|wireframe|
 |----|----|
-|![](img/cowpoint.PNG)|![](img/cowline.PNG)|
+|![](img/cowpoint.png)|![](img/cowline.png)|
 
 |point|wireframe|
 |----|----|
-|![](img/chunkpoint.PNG)|![](img/chunkline.PNG)|
+|![](img/chunkpoint.png)|![](img/chunkline.PNG)|
 
   * Perspective Correction
 
