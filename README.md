@@ -38,4 +38,5 @@ CUDA Rasterizer
 	|without perspective correction|with perspective correction|
 	|----|----|
 	|![](img/withoutPerspectiveCorrectness.PNG)|![](img/withPerspectiveCorrectness.PNG)|
-	
+
+
