@@ -1,20 +1,41 @@
 CUDA Rasterizer
 ===============
 
-[CLICK ME FOR INSTRUCTION OF THIS PROJECT](./INSTRUCTION.md)
+**University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 2**
 
-**University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 4**
+* Jizhou Yan
+* Tested on: Windows 10, i7-4789K @ 4.00GHz 32GB, GTX 1080Ti(Personal Desktop)
 
-* (TODO) YOUR NAME HERE
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+## Features
+* Rasterization
+* Blinn-Phong shading
+* Texture mapping with bilinear filter and perspective correct texture coordinates
+* Rasterization for points and lines 
 
-### (TODO: Your README)
+## Overview
 
-*DO NOT* leave the README to the last minute! It is a crucial part of the
-project, and we will not be able to grade you without a good README.
+![overview](img/1.gif)
 
+  # Pipeline: 
+	* Vertex Shading (apply Model, View, Projection transform and assembly vertexOut )
+	* Primitive Assembly (assembly vertices to primitives)
+	* Rasterization (fill in every fragment inside each primitive)
+	* Fragment Shading (apply fragment shading using pos, nor and texCoords information, BlinnPhong shading applied)
+	* Write Fragment Buffer to Frame Buffer (send current frame to display)
 
-### Credits
+## Result
 
-* [tinygltfloader](https://github.com/syoyo/tinygltfloader) by [@soyoyo](https://github.com/syoyo)
-* [glTF Sample Models](https://github.com/KhronosGroup/glTF/blob/master/sampleModels/README.md)
+  # Rasterization of Line and Point
+	|point|wireframe|
+	|----|----|
+	|![](img/cowpoint.PNG)|![](img/cowline.PNG)|
+
+	|point|wireframe|
+	|----|----|
+	|![](img/chunkpoint.PNG)|![](img/chunkline.PNG)|
+
+  # Perspective Correction
+	|without perspective correction|with perspective correction|
+	|----|----|
+	|![](img/withoutPerspectiveCorrectness.PNG)|![](img/withPerspectiveCorrectness.PNG)|
+	
