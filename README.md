@@ -43,10 +43,10 @@ CUDA Rasterizer
 
 ## Performance Analysis
   * Rasterization for Points and Lines
-      ![](img/PA1.png)
+      ![](img/pa1.png)
       
   * Bilinear Interpolation
-      ![](img/PA2.png)
+      ![](img/pa2.png)
       
   * Perspective Correct Coordinates
-      ![](img/PA3.png)
+      ![](img/pa3.png)
