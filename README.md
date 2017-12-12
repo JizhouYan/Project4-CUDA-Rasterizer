@@ -35,6 +35,12 @@ CUDA Rasterizer
 |----|----|
 |![](img/chunkpoint.png)|![](img/chunkline.PNG)|
 
+  * Bilinear Interpolation
+
+|without bilinear interpolation|with bilinear interpolation|
+|----|----|
+|![](img/checkwithnobin.png)|![](img/checkwithbin.png)|
+
   * Perspective Correction
 
 |without perspective correction|with perspective correction|
